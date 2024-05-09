@@ -7,39 +7,46 @@
     <title>EST Request Form</title>
 </head>
 <body>
-    
-    <section class="layout__container">
+    <section class="main__container">
+    <div class="disclaimer__container">
+        <p><strong>PLEASE NOTE</strong>: If flyer request is not requested 2 weeks prior to the first Sunday it goes up, it will be denied.</p>
+    </div>
+    <div class="layout__container">
 
         <form action="" class="contact__left">
             <div class="contact__left-title">
-                <h2>Form Request</h2>
+                <h2>Flyer Form Request</h2>
                 <hr>
             </div>
-            <input type="text" name="name" placeholder="Full Name" class="contact__input" required>
+            <input type="text" name="name" placeholder="Enter Full Name" class="contact__input" required>
             <input type="email" name="email" placeholder="Enter Email" class="contact__input" required>
-            <input type="text" name="ministry" placeholder="What ministry do you have in mind?" class="contact__input" required>
+            <input type="text" name="ministry" placeholder="Requesting Ministry" class="contact__input" required>
             <div class="date__container  flex">
                 <div class="date__layout">
                     <label for="fname">Start Date:</label>
-                    <input type="date" name="date" class="contact__input">
+                    <input type="date" name="date" class="contact__input-date">
                 </div>
                 
                 <div class="date__layout">
                     <label for="fname">End Date:</label>
-                    <input type="date" name="date" class="contact__input">
+                    <input type="date" name="date" class="contact__input-date">
                 </div>
             </div>
-            <input type="text" name="approval" placeholder="Approved by?" class="contact__input" required>
-           <textarea name="message" id="detail__message" placeholder="Details of Annconment" class="contact__input" requi red></textarea>
-           <button type="submit" class="">Submit</button>
+            <input type="text" name="approval" placeholder="Approved by" class="contact__input" required>
+           <textarea name="message" id="detail__message" placeholder="Detail Information & Theme" class="contact__input-textarea" required></textarea>
+           <button type="submit" class="btn">Submit</button>
         </form>
 
         <div class="contact__right">
-            <img src="" alt="">
+            <p>
+                “For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither 
+                height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord” 
+                <br>(Romans 8:38-39).
+            </p>
         </div>
 
 
-    </section>
-
+    </div>
+</section>
 </body>
 </html>
