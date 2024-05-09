@@ -5,3 +5,30 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
+.layout__container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.date__container{
+    gap: 15px;
+}
+
+.date__layout{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
