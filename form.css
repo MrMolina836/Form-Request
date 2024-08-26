@@ -41,7 +41,7 @@ span{
 .layout__container{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .contact__left{
@@ -51,7 +51,7 @@ span{
     gap: 20px;
 }
 .contact__left-title h2{
-    font-size: 9vw;
+    font-size: 5vw;
     margin-bottom: 5px;
 }
 .contact__left-title hr{
@@ -127,12 +127,12 @@ span{
 
 @media (max-width: 800px){
     .contact__input{
-        width: 80vw;
+        width: 90%;
     }
     .contact__left-title h2{
-        font-size: 9vw;
+        font-size: 7vw;
     }
     .contact__input-textarea{
-        width: 80vw;
+        width: 90%;
     }
 }
