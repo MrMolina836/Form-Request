@@ -13,14 +13,17 @@
     </div>
     <div class="layout__container">
 
-        <form action="" class="contact__left">
+        <form action="https://formsubmit.co/731c00c869bf7fe8181c3ade026105b1" method="POST" class="contact__left">
             <div class="contact__left-title">
                 <h2>Flyer Form Request</h2>
                 <hr>
             </div>
-            <input type="text" name="name" placeholder="Enter Full Name" class="contact__input" required>
-            <input type="email" name="email" placeholder="Enter Email" class="contact__input" required>
-            <input type="text" name="ministry" placeholder="Requesting Ministry" class="contact__input" required>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <input type="hidden" name="_subject" value="New Request Form!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="Name" placeholder="Enter Full Name" class="contact__input" required>
+            <input type="email" name="Email" placeholder="Enter Email" class="contact__input" required>
+            <input type="text" name="Ministry" placeholder="Requesting Ministry" class="contact__input" required>
             <div class="date__container  flex">
                 <div class="date__layout">
                     <label for="fname">Start Date:</label>
